@@ -1,0 +1,13 @@
+.app {
+    width: 55rem;
+    height: 83rem;
+    background-color: white;
+    border-radius: 8.95px;
+    margin: 3rem 0;
+    overflow-x: hidden;
+}
+
+.cards {
+    display: flex;
+    margin-left: 3.6rem;
+}
