@@ -1,4 +1,4 @@
-import star from "/src/images/star.png";
+import star from "/images/star.png";
 import "./card.css";
 
 export default function Card(props) {

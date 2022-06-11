@@ -10,21 +10,21 @@ export default function App() {
             <Hero />
             <div className="cards">
                 <Card
-                    img="./src/images/katie-zaferes.png"
+                    img="/images/katie-zaferes.png"
                     rate="5.0"
                     rateNumber="6"
                     text="Life lessons with Katie Zaferes"
                     price="136"
                 />
                 <Card
-                    img="./src/images/wedding-photography.png"
+                    img="/images/wedding-photography.png"
                     rate="5.0"
                     rateNumber="30"
                     text="Learn wedding photography"
                     price="125"
                 />
                 <Card
-                    img="./src/images/mountain-bike.png"
+                    img="/images/mountain-bike.png"
                     rate="4.8"
                     rateNumber="2"
                     text="Group Mountain Biking"
