@@ -1,8 +1,7 @@
 import star from "/images/star.png";
 import "./card.css";
 
-export default function Card(props) {
-    const { img, rate, rateNumber, text, price } = props;
+export default function Card({ img, rate, rateNumber, text, price }) {
     return (
         <div className="card">
             <img src={img} alt="" />
