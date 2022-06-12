@@ -4,7 +4,7 @@
 }
 
 .Hero img {
-    width: 39.5rem;
+    max-width: 39.5rem;
     align-self: center;
     margin-block: 2.6rem 3.2rem;
 }
@@ -12,11 +12,13 @@
 .Hero h1 {
     font-size: 3.6rem;
     margin-left: 3.6rem;
+    /* line-height: 4rem; */
 }
 
 .Hero p {
     font-size: 1.6rem;
-    width: 32rem;
+    max-width: 32rem;
     margin-left: 3.6rem;
     margin-bottom: 2rem;
+    margin-right: 2rem;
 }

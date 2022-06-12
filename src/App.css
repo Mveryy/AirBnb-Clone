@@ -1,13 +1,16 @@
 .app {
-    width: 55rem;
-    height: 83rem;
+    max-width: 55rem;
+    height: fit-content;
     background-color: white;
     border-radius: 8.95px;
-    margin: 3rem 0;
+    /* margin: 3rem 0; */
     overflow-x: hidden;
+    margin: 5rem 2rem;
 }
 
 .cards {
     display: flex;
     margin-left: 3.6rem;
+    overflow-x: auto;
+    margin-bottom: 2rem;
 }

@@ -2,35 +2,17 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Card from "./components/Card/Card";
+import data from "./data";
 
 export default function App() {
+    const cards = data.map((item) => {
+        return <Card key={item.id} item={item} />;
+    });
     return (
         <div className="app">
             <Navbar />
             <Hero />
-            <div className="cards">
-                <Card
-                    img="/images/katie-zaferes.png"
-                    rate="5.0"
-                    rateNumber="6"
-                    text="Life lessons with Katie Zaferes"
-                    price="136"
-                />
-                <Card
-                    img="/images/wedding-photography.png"
-                    rate="5.0"
-                    rateNumber="30"
-                    text="Learn wedding photography"
-                    price="125"
-                />
-                <Card
-                    img="/images/mountain-bike.png"
-                    rate="4.8"
-                    rateNumber="2"
-                    text="Group Mountain Biking"
-                    price="50"
-                />
-            </div>
+            <div className="cards">{cards}</div>
         </div>
     );
 }

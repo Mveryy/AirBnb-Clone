@@ -17,3 +17,7 @@ body {
     height: fit-content;
     background-color: #e5e5e5;
 }
+
+div {
+    max-width: 100%;
+}
